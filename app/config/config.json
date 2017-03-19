@@ -1,15 +1,15 @@
 {
 	"db": {
-		"username": "<MongoDBUsername>",
-		"password": "<MongoDBPassword>",
-		"host": "<MongoDBHost>",
-		"port": "<MongoDBPort>",
-		"name": "<MongoDBName>"
+		"username": "",
+		"password": "",
+		"host": "mongo",
+		"port": "27017",
+		"name": "kiaora"
 	},
-	"sessionSecret": "<RandomString>",
+	"sessionSecret": "cw34SDAMILo9xw34^j89q20!#$%$kJSaq!#^*w4v5y",
 	"facebook": {
-		"clientID": "<AppID>",
-		"clientSecret": "<AppSecret>",
+		"clientID": "1872170763025609",
+		"clientSecret": "d94ed14799465c693488ce6462d08f3c",
 		"callbackURL": "/auth/facebook/callback",
 		"profileFields": ["id", "displayName", "photos"]
 	},
@@ -20,7 +20,7 @@
 		"profileFields": ["id", "displayName", "photos"]
 	},
 	"redis": {
-		"host": "127.0.0.1",
+		"host": "redis-io",
 		"port": 6379,
 		"password": ""
 	}
